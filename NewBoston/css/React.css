@@ -1,0 +1,16 @@
+.dervac-p{
+    display:flex;
+    justify-content:space-between;
+}
+
+li{
+    display:inline;
+    
+}
+a{
+    margin: 20px;
+    padding: 10px;
+}
+h4{
+    padding: 10px;
+}
