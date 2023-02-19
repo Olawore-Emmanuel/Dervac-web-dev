@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+#showcase{
+background-image: url(../pics/pexels-tetyana-kovyrina-1271858.jpg);
+background-size: cover;
+height: 100vh;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p {
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+ #showcase .button:hover{
+    background-color: #926239;
+    color: white;
+}
+#section-a{
+    background-color: #926239;
+    color: white;
+    padding: 20px;
+}
+#section-b{
+    background-color: white;
+    color: #926239;
+    padding: 20px;
+}
+#section-c{
+    display: flex;
+}
+#section-c .box-1 , #section-c .box-3{
+    background-color: #926239;
+    color: white;
+    padding: 10px;
+}
+#section-c .box-2{
+    padding: 10px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Mulish&display=swap');
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 17, 255);
+    color: white;
+    align-items: center;
+    font-size: large;
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.pen{
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-family: 'Mulish', sans-serif;
+}
+.showcase{
+    background-image: url(../pics/maxresdefault.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.showcase P {
+    font-size: 30px;
+}
+.showcase h1{
+    font-size: 70px;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    font-size: 10px;
+}
+.menu{
+    padding: 20px;
+    display: flex;
+    font-size: x-large;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-bottom-color: white;
+    border-width: 10px;  
+}
+.thru{
+    text-decoration: underline;
+    color: red;
+}
+.price{
+    text-decoration: line-through;
+    color: red;
+    font-size: xx-large;
+}
+.sp{
+    display: flex;
+    font-size: xx-large;
+}

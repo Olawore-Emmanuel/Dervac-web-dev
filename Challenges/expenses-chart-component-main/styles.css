@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: white;
+    line-height: 0.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+    margin: 5% 35%;
+}
+.chat{
+    background-color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.monday-bar{
+    width: 30px;
+    height: 30px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+    margin-bottom: 0;
+}
+.tuesday-bar{
+    width: 30px;
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+}
+.wednesday-bar{
+    width: 30px;
+    height: 90px;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 2px;
+}
+.thursday-bar{
+    width: 30px;
+    height: 45px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+}
+.friday-bar{
+    width: 30px;
+    height: 35px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+}
+.saturday-bar{
+    width: 30px;
+    height: 80px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+}
+.sunday-bar{
+    width: 30px;
+    height: 47px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+}
+.bar{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+}
+.dates{
+    display: flex;
+    gap: 35px;
+    align-items: start;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.ray{
+    color: gray;
+}
+.bottom h1{
+    font-size: xx-large;
+    margin-top: 0;
+}
+.bottom .ray{
+    margin-bottom: 0;
+}

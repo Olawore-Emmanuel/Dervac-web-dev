@@ -1,0 +1,10 @@
+code{
+    border: 1px solid black;
+}
+h1{
+    display: none;
+}
+.container{
+    /* display: none; */
+    /* visibility: hidden; incase u want to hide a new feature */
+}

@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+#nav{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 20px 40px;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+}
+#nav div img{
+    gap: 40px;
+    cursor: pointer;
+}
+select{
+    border: none;
+    color: white ;
+    background: none;
+    font-size: medium;
+    padding: 13px;
+    outline: none;
+}
+option{
+ color: black;
+}
+button{
+    padding: 13px;
+    border-radius:25px;
+    color: blue;
+    background-color: white;
+    border-color: white;
+    font-size: medium;
+    font-weight: bolder; 
+    cursor: pointer;
+    border: white 3px solid;
+}
+#nav p{
+    padding: 13px;
+}
+button:hover{
+    border-color: white;
+    background: none;
+}
+#header{
+    background: url(./tek-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+}
+.ad{
+   color: white; 
+   padding-left: 70px;
+   padding-top: 100px;
+     
+}
+.ad h1{
+    font-size: 80px;
+    line-height: 0.9;
+}
+.ad p{
+    padding-top: 25px;
+    font-size: x-large;
+}
+.ad button{
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    margin-top: 25px;
+    width: 280px;
+    padding: 8px 6px;
+}
+.ad button:hover{
+    color: white;
+    background-color: blue;
+}
+.welcome{
+    padding: 50px;
+    background-color: white;
+    margin-top: -5rem;
+    margin-left: 5%;
+    margin-right:5% ;
+    position: relative;
+    box-shadow: 2px 5px 10px black;
+}
+.welcome h2{
+    margin-bottom: 3px;
+}
+.experts{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.links{
+ line-height: 3;
+ text-decoration: none;
+ font-weight: bolder;
+ color: blue;
+}
+.Solution{
+    padding-left: 60px;
+    padding-right: 80px;
+}
+.Solution h2{
+    margin-top: 50px;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.techpic{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;  
+}
+
+.techpic img{
+    width: 400px;
+    padding:  9px;
+}
+.tech-support{
+background-image: url(./first-image-sec.jpg);
+width: 30%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-support .magic{
+display: none;
+}
+.tech-support:hover .magic{
+display: block;
+}
+.head{
+margin-top: 170px;
+margin-bottom: 30px;
+}
+.customer-success .magic{
+    display: none;
+}
+.customer-success:hover .magic{
+    display: block;
+}
+.customer-success{
+background-image: url(./sec-image-sec.jpg);
+width: 31%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-talent{
+background-image: url(./third-image-sec.jpg);
+width: 30%;
+height: 28rem;
+background-position: center;
+background-size: cover;
+color: white; 
+padding-left: 20px; 
+}
+.tech-talent .magic{
+    display: none;
+}
+.tech-talent:hover .magic{
+    display: block;
+}
+.third{
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 80px;
+background-repeat: no-repeat;
+}
+.diff{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.task{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+.fa-clock-o{
+    color: rgb(76, 76, 202);
+}
+.fa-check{
+    color: rgb(76, 76, 202);
+}
+.fa-bolt{
+    color: rgb(76, 76, 202);
+}
+.line-2{
+    background-color: black;
+    width: 1250px;
+    height: 3px;
+    margin: 30px 0;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+.task p{
+    font-size: larger;
+}
+.lin{
+    margin-top: 33px;
+}
+.impact{
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+#global{
+    display: flex;
+    justify-content: space-between;
+    align-items: start
+}
+#global h1{
+    color: rgb(57, 117, 230);
+    font-size: 50px;
+    margin-top: -40px;
+}
+#global p{
+    margin-top: 10px;
+    font-size: larger
+}
+.progress{
+    display: flex;
+    justify-content: space-between;
+}
+.progress button{
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    padding: 9px;
+}
+.progress button:hover{
+    color: white;
+    background-color: blue;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: bolder;
+} 
+#pic-bar{
+    display: flex;
+    justify-content: space-between;
+}
+#pic-bar img{
+    width: 388px;
+    height: 237px;
+    margin: 10px 0;
+}
+.career{
+    padding: 50px;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 55%;
+    margin-bottom: -10rem;
+    height: 240px;
+    position: relative;
+    box-shadow: 2px 5px 5px black;  
+}
+.career h1{
+margin: 15px 0;
+font-size: 40px;
+}
+.career p{
+    font-size: larger;
+    margin-bottom: 70px;
+}
+#foot{
+    background-color: rgb(2, 43, 66);
+    padding:50px ;
+    width: 103%;
+    color: white;
+    margin-top: -5px;
+    margin-left: -60px;
+
+}
+#foot h1{
+    margin-top: 10px;
+}
+.tekk{
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.line{
+    background-color: white;
+    width: 1250px;
+    height: 3px;
+    margin: 30px 0;
+}
+.policies{
+    display: flex;
+    justify-content: space-between;
+}
+.career .links{
+    font-size: 16px;
+}

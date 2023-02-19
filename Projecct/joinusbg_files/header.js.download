@@ -1,0 +1,35 @@
+const header = document.querySelector('.header')
+const openMobMenu = document.querySelector('.navbar-toggle')
+
+openMobMenu.addEventListener('click', function(){
+    openMobMenu.classList.toggle('active')
+    document.body.classList.toggle('hide-scroll')
+})
+
+window.addEventListener('scroll', function(){
+    if (window.innerWidth > 991 && pageYOffset > 1) {
+        header.classList.add('sticky')
+    } else {
+        header.classList.remove('sticky')
+    }
+})
+
+// mobile
+
+if (window.innerWidth < 992) {
+    const toggleMenus = document.querySelectorAll('.header__open')
+    const subMenus = document.querySelectorAll('.header__submenu')
+
+    for (let i = 0; i < toggleMenus.length; i++) {
+        const toggleMenu = toggleMenus[i]
+        const subMenu = subMenus[i]
+
+        toggleMenu.insertAdjacentHTML('beforeend', '<i class="fa fa-chevron-right"></i>')
+    
+        toggleMenu.addEventListener('click', function(){
+            subMenu.classList.toggle('active')
+            toggleMenu.classList.toggle('active')
+        })
+    }
+}
+

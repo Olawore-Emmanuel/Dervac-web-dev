@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(30, 38%, 92%);
+      margin: 5% 30%;
+    }
+    section{
+      display:flex;
+      height: 470px ;
+      width: 250px ;   
+    }
+    .paragraph p{
+      font-size: 14px;
+      color: hsl(228, 12%, 48%);
+      line-height: 1.2 ;
+    }
+    .price{
+      color: hsl(158, 36%, 37%) !important;
+      font-size: xx-large !important;
+      font-weight: 900;
+    }
+    #cost{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .old{
+      text-decoration: line-through;
+    }
+    button{
+      background-color:hsl(158, 36%, 37%) ;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      padding: 17px;
+      width: 200px;
+      cursor: pointer;
+    }
+    .paragraph{
+      padding: 30px;
+      background-color: white;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    h1{
+      font-size: xx-large;
+      line-height: 0.9;
+    }
+    button img{
+      margin-right: 3px;
+    }
+    img{
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <img src="./images/image-product-desktop.jpg" alt="" height="470px" width="250px">
+    </div>
+    <div class="paragraph">
+      <p>PERFUME</p>
+
+    <h1><b>Gabrielle Essence Eau De Parfum</b></h1> 
+
+     <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+     Perfumer-Creator for the House of CHANEL.</p>
+     
+     <div id="cost"> 
+      <p class="price">$149.99</p>
+     <p class="old">$169.99</p> 
+    </div>
+      <button><img src="./images/icon-cart.svg" alt=""> Add to Cart</button> 
+    </div>
+  </section>
+  <br>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Olawore Emmanuel</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: grey;
+}
+.nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.content{
+    margin-left: 200px;
+    font-family: 'Itim', cursive;
+}

@@ -1,0 +1,39 @@
+#card{
+    display: flex;
+    color: white ;
+    font-size: 15px;
+    margin: 5% 25%;
+    margin-bottom: 0;
+  }
+  .sedans{
+    background-color:hsl(31, 77%, 52%);
+    padding: 30px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+  }
+  .suv{
+    background-color:hsl(184, 100%, 22%);
+    padding: 30px;
+    font-weight: 400;
+  }
+  .luxury{
+    background-color:hsl(179, 100%, 13%);
+    padding: 30px;
+    font-weight: 400;
+  }
+  h1{
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+  }
+  .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    line-height: 8;
+   }

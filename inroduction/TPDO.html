@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Mulish&display=swap');
+
+        body{
+            background-color:hsl(235, 21%, 11%);
+            background-image: url(./images/bg-desktop-dark.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            font-family: 'Mulish', sans-serif;
+        }
+        div{
+            font-family: 'Mulish', sans-serif;
+            font-size: 18px;
+            margin-left: 460px;
+            margin-right: 400px;
+        }
+        .top{
+            background-color:hsl(235, 24%, 19%);
+            padding: 15px;
+            width: 400px;
+            border: none;
+            font-size: medium;
+            border-color: white;
+        }
+        .under{
+            text-decoration: line-through white;
+        }
+        .tod{
+            background-color:hsl(235, 24%, 19%);
+            padding: 15px;
+            width: 400px;
+            border: none;
+            font-size: medium;
+            border-color: white;
+            text-align: start;
+        }
+.bottom{
+        font-size: small;
+        color: hsl(235, 21%, 11%);
+}
+.end{
+    font-size: small;
+}
+.clr{
+    font-size: small;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+    </style>
+</head>
+<body>
+    <div >
+        <h1><B>TO DO</B></h1>
+        <input class="top" type="text" placeholder="Currently typing">
+    </div>
+    <br>
+ <div class="tod">
+             <input type="checkbox"><span class= "under">Complete online javascript course</span>
+            <br>
+            <hr>
+            <input type="checkbox"><span>Jog around the park 3x</span>
+            <br>
+            <hr>
+            <input type="checkbox"><span>10 minutes of meditation</span>
+            <br>
+            <hr>
+            <input type="checkbox"><span>Read for one hour</span>
+            <br>
+            <hr>
+            <input type="checkbox"><span>Pick up groceries</span>
+            <br>
+            <hr>
+            <input type="checkbox"><span>Complete Todo App Frontend Mentor</span>
+            <br>
+            <hr>
+           <span class="foot"> <span class="bottom"> 5 items left</span> <span class="end">All Active  Completed </span> <span class="clr"> Clear Completed</span> </span>
+        </div>
+    <center><p>Drag and drop to reorder list</p>
+</body>
+</html>

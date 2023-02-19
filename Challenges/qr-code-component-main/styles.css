@@ -1,0 +1,27 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 5% 38%;
+}
+section{
+    background-color: white;
+    padding: 15px;
+    width: 270px;
+    border-radius: 13px;
+}
+pre{
+    color: hsl(220, 15%, 55%) ;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+img{
+    border-radius: 20px;
+}
+.content{
+    padding: 0  18px;
+      
+}
+h1{
+    font-size: 19px;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
