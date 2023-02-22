@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Livvic', sans-serif;
+    overflow-x: hidden;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.info{
+    display: flex;
+    gap: 15px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: grey;
+}
+.fa-envelope{
+    color: rgb(41, 41, 187);
+}
+.fa-map-marker{
+    color: rgb(41, 41, 187);
+}
+.fa-phone{
+    color: rgb(41, 41, 187);
+}
+.nav2{
+    background:linear-gradient(to right,rgb(0, 11, 163), rgb(0, 153, 255));
+    color:white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px ;
+    margin-top: 0;
+    font-weight: bold;
+}
+.nav2 p a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    display: flex;
+    gap: 30px;
+}
+.media{
+    display: flex;
+    gap: 20px;
+}
+.line2{
+    height: 30px;
+    width: 1px;
+    background-color: white;
+}
+#header{
+    position:relative;
+    background-image: url(./slide-1.webp);
+    width: 100vw;
+    height: 100vh;
+    clip-path: polygon(0% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%);
+    color: white;
+    padding-left: 60px;
+    z-index: 4;
+}
+#header h1{
+    padding-top: 130px;
+    padding-right: 50rem;
+    font-size: 55px;
+}
+#header p{
+    padding-top: 20px;
+    padding-right: 50rem;
+    font-size:21px ;
+    font-weight: bold;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to top,rgb(54, 136, 190), rgb(25, 8, 185));
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+#foam{
+    background-color: white;
+    padding: 20px 40px 35px;
+    margin-left: 850px;
+    /* margin-right: 50px; */
+    margin-top: -550px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 15px;
+    width: 350px; 
+}
+
+#foam p{
+    margin-left: 7px;
+    margin-top: 8px;
+    margin-bottom: 20px ;
+    text-align: center;
+}
+input{
+    background-color: rgb(212, 209, 209);
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    width: 300px;
+}
+button{
+    background: linear-gradient(to right,rgb(0, 11, 163), rgb(0, 153, 255));
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    width: 340px;
+    color: white;
+    font-weight: 700;
+}
+#about{
+    display: flex;
+    margin-bottom: 100px;
+}
+.img1{
+    position: relative;
+    z-index: 1;
+}
+.img2{
+    position: relative;
+    z-index: 3;
+    bottom: -150px;
+    left: -100px;
+}
+.img3{
+    position: relative;
+    z-index: 2;
+    /* left: -780px; */
+    bottom: -80px;
+}
+.us{
+    padding-top: 100px;
+    margin-left: -200px;
+    
+}
+.us h3{
+    color: blue;
+    display: flex;
+    margin-bottom: 30px;
+}
+.line3{
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 55px;
+    height: 4px;
+    background-color: blue;
+}
+.us h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.us p{
+    font-size: medium;
+    margin-bottom: 50px;
+    color: grey;
+    /* font-family: 'Livvic', sans-serif; */
+}
+.values{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    width: 670px;
+    height: 8px;
+    background-color: rgb(172, 236, 236);
+}
+.fill{
+    width: 600px;
+    height: 8px;
+    background-color: blue;
+}
+.bar2{
+    width: 670px;
+    height: 8px;
+    background-color: rgb(172, 236, 236);
+}
+.fill2{
+    width: 550px;
+    height: 8px;
+    background-color: blue;
+}
+.bar3{
+    width: 670px;
+    height: 8px;
+    background-color: rgb(172, 236, 236);
+}
+.fill3{
+    width: 630px;
+    height: 8px;
+    background-color: blue;
+}
+.bar4{
+    width: 670px;
+    height: 8px;
+    background-color: rgb(172, 236, 236);
+}
+.fill4{
+    width: 500px;
+    height: 8px;
+    background-color: blue;
+}
+.learn{
+    background: linear-gradient(to right,rgb(0, 11, 163), rgb(0, 153, 255));
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder; 
+    width: 200px;
+    font-size: large;
+    margin-top: 70px;
+}
+#service{
+    background-color: whitesmoke;
+}
+.slide{
+    text-align: center;
+    padding-top: 150px;
+    line-height: 1.5;
+}
+.line4{
+    height: 5px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ball{
+    height:20px ;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    top: -7px;
+    animation: ball  2s infinite ease-in-out alternate  ;
+}
+@keyframes ball {
+    from{
+        left: -40px;
+    }
+    to{
+        left: 40px;
+    }
+}
